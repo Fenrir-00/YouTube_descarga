@@ -10,6 +10,7 @@ apt install python
 ```
 ```bash
 termux-setup-storage
+```
 ```bash
 apt install git
 ```
