@@ -9,11 +9,11 @@ apt install git
 apt install python
 ```
 ```bash
-git clone https://github.com/Fenrir-00/baner-termux
+git clone https://github.com/Fenrir-00/YouTube_descarga
 ```
 ```bash
-cd baner-termux
+cd YouTube_descarga
 ```
 ```bash
-python3 baner.py
+python3 youtube.py
 ```
