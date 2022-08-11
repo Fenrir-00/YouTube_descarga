@@ -5,6 +5,12 @@ while True:
   break
  except ModuleNotFoundError:
   os.system("pip install pytube")
+while True:
+ try:
+  from lolpython import lol_py
+  break
+ except ModuleNotFoundError:
+  os.system("pip install lolpython")
 
 
 class color:
