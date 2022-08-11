@@ -29,6 +29,25 @@ def banner():
 ██║     ███████╗██║ ╚███║██║  ██║██║██║  ██║
 ╚═╝     ╚══════╝╚═╝  ╚══╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝""")
  print(f"{color.fin}")
+def cabecera():
+ os.system("clear)
+ print(f"""{color.cyan}
+
+██╗░░░██╗░█████╗░██╗░░░██╗████████╗███╗░░░███╗██╗░░░██╗██╗░░██╗
+╚██╗░██╔╝██╔══██╗██║░░░██║╚══██╔══╝████╗░████║██║░░░██║╚██╗██╔╝
+░╚████╔╝░██║░░██║██║░░░██║░░░██║░░░██╔████╔██║██║░░░██║░╚███╔╝░
+░░╚██╔╝░░██║░░██║██║░░░██║░░░██║░░░██║╚██╔╝██║██║░░░██║░██╔██╗░
+░░░██║░░░╚█████╔╝╚██████╔╝░░░██║░░░██║░╚═╝░██║╚██████╔╝██╔╝╚██╗
+░░░╚═╝░░░░╚════╝░░╚═════╝░░░░╚═╝░░░╚═╝░░░░░╚═╝░╚═════╝░╚═╝░░╚═╝""")
+def version():
+ texto ="""
+ |=======================================================|
+ | Script by              : #FENRIR-00                   |
+ | Version                : Version  1.2                 |
+ | Follow me on Github    : https://github.com/Fenrir-00 |
+ | Contact me on Telegram : @Ritorito1990                |
+ ========================================================= """
+ lol_py(texto)
 
 def carga():
     print(f"{color.verde}")
@@ -135,6 +154,8 @@ def menu():
     os.system("clear")
     banner()
     carga()
+    cabecera()
+    version()
     print(f"{color.morado} DESCARGA  VIDEOS DE YOUTUBE{color.fin}")
     print("")
     print(f"{color.cyan}QUE TE GUSTARIA HACER{color.fin}")
