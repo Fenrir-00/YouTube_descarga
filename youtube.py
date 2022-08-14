@@ -17,7 +17,7 @@ while True:
   break
  except ModuleNotFoundError:
   os.system("pip install requests")
-r= requests.get("https://raw.githubusercontent.com/Fenrir-00/investigar-web/main/version.txt")
+r= requests.get("https://raw.githubusercontent.com/Fenrir-00/YouTube_descarga/main/version.txt")
 r=r.text
 print(r)
 if r != "version=1.2\n":
