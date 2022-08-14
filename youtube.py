@@ -192,8 +192,6 @@ def salir():
 
 def menu():
     os.system("clear")
-    banner()
-    carga()
     cabecera()
     version()
     print(f"{color.morado} DESCARGA  VIDEOS DE YOUTUBE{color.fin}")
